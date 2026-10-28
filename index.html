@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dental Job Board — Dental openings, all in one place. No sign-up to browse — just find the job and apply.</title>
+<meta name="description" content="Dental openings, all in one place. No sign-up to browse — just find the job and apply.">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style type="text/tailwindcss">
+  @theme {
+    --color-ink: #1a1d21;
+    --color-paper: #faf8f4;
+    --color-accent: #0e7490;
+  }
+</style>
+</head>
+<body class="bg-paper text-ink font-sans antialiased">
+<nav class="sticky top-0 z-10 border-b border-ink/10 bg-paper/90 backdrop-blur">
+  <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+    <a href="./" class="font-semibold">🦷 Dental Jobs</a>
+    <div class="flex items-center gap-6 text-sm font-medium">
+      <a href="./" class="hover:text-accent">Jobs</a>
+      <a href="./post-a-job/" class="hover:text-accent">Post a job</a>
+      <a href="./post-a-job/" class="rounded-lg bg-accent px-4 py-2 text-white transition hover:opacity-90">Post a job · $99</a>
+    </div>
+  </div>
+</nav>
+<header class="border-b border-ink/10 bg-accent/10">
+  <div class="mx-auto flex max-w-5xl flex-col gap-6 px-6 py-16 sm:py-20">
+    <h1 class="max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">Find your next dental job.</h1>
+    <p class="max-w-xl text-xl leading-relaxed text-ink/70">Dental openings, all in one place. No sign-up to browse — just find the job and apply.</p>
+    <div>
+      <label class="sr-only" for="search">Search jobs</label>
+      <input id="search" type="search" placeholder="Search by title, practice, or location…" class="w-full max-w-xl rounded-lg border border-ink/20 bg-white px-4 py-3 text-lg">
+    </div>
+    <p class="text-ink/60"><span id="job-count">20</span> openings listed · Free for job seekers</p>
+  </div>
+</header>
+<main class="mx-auto max-w-5xl px-6 py-12">
+  <div id="job-list" class="grid gap-6 sm:grid-cols-2">
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="registered dental hygienist (rdh) - full-time westwood dental kansas city, ks">
+  <h3 class="text-lg font-semibold"><a href="./jobs/registered-dental-hygienist-rdh-full-time-westwood-dental/" class="hover:text-accent">Registered Dental Hygienist (RDH) - Full-Time</a></h3>
+  <p class="mt-1 text-ink/70">Westwood Dental · Kansas City, KS</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">We are looking for a Full-Time Registered Dental Hygienist to add to our high-energy, fast-paced general dentistry office. We are located West of the Country Club Plaza, just south of KU MED, in Kansas City, Kansas.</p>
+  <a href="./jobs/registered-dental-hygienist-rdh-full-time-westwood-dental/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="registered dental hygienist - friday only rhoades family dentistry olathe, ks">
+  <h3 class="text-lg font-semibold"><a href="./jobs/registered-dental-hygienist-friday-only-rhoades-family-dentistry/" class="hover:text-accent">Registered Dental Hygienist - Friday Only</a></h3>
+  <p class="mt-1 text-ink/70">Rhoades Family Dentistry · Olathe, KS</p>
+  <p class="mt-1 text-sm text-ink/50">Part-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Perform comprehensive dental cleanings, including scaling and polishing to remove plaque and tartar buildup. This is a Friday-only hygienist role at a family dentistry practice in Olathe.</p>
+  <a href="./jobs/registered-dental-hygienist-friday-only-rhoades-family-dentistry/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist kansas city kansas dental professionals, p.a. kansas city, ks">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-kansas-city-kansas-dental-professionals-p-a/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Kansas City Kansas Dental Professionals, P.A. · Kansas City, KS</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Kansas City Kansas Dental Professionals is a modern, non-corporate general dentistry practice with an immediate need for a full-time registered dental hygienist. The role focuses on preventive care and oral health for a flourishing patient ...</p>
+  <a href="./jobs/dental-hygienist-kansas-city-kansas-dental-professionals-p-a/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="registered dental hygienist daniel j. thomas periodontal specialists kansas city, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/registered-dental-hygienist-daniel-j-thomas-periodontal-specialists/" class="hover:text-accent">Registered Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Daniel J. Thomas Periodontal Specialists · Kansas City, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Periodontal Specialists is seeking a Dental Hygienist to join our established and still growing practice in the Northland. Our privately-owned office delivers unmatched oral care to our patients with exceptional customer service.</p>
+  <a href="./jobs/registered-dental-hygienist-daniel-j-thomas-periodontal-specialists/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist lakeview family dental overland park, ks">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-lakeview-family-dental/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Lakeview Family Dental · Overland Park, KS</p>
+  <p class="mt-1 text-sm text-ink/50">Part-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">We are growing and looking to find an amazing part-time hygienist to join our great team! We are a privately owned practice with a great team and supportive environment.</p>
+  <a href="./jobs/dental-hygienist-lakeview-family-dental/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="registered dental hygienist daniel j. thomas periodontal specialists leawood, ks">
+  <h3 class="text-lg font-semibold"><a href="./jobs/registered-dental-hygienist-daniel-j-thomas-periodontal-specialists-2/" class="hover:text-accent">Registered Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Daniel J. Thomas Periodontal Specialists · Leawood, KS</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Periodontal Specialists is seeking a Registered Dental Hygienist to join our established and still growing practice in Leawood. Our privately-owned office provides excellent periodontal care to our patients with exceptional customer service...</p>
+  <a href="./jobs/registered-dental-hygienist-daniel-j-thomas-periodontal-specialists-2/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist ryan dental olathe, ks">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-ryan-dental/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Ryan Dental · Olathe, KS</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">We are seeking a skilled and patient-focused Dental Hygienist to join our team. This role is ideal for a licensed professional who is passionate about preventative care, patient education, and building lasting relationships with patients.</p>
+  <a href="./jobs/dental-hygienist-ryan-dental/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="registered dental hygienist cass county dental clinic belton, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/registered-dental-hygienist-cass-county-dental-clinic/" class="hover:text-accent">Registered Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Cass County Dental Clinic · Belton, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Part-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">We are a safety-net dental clinic with a mission to eliminate oral disease through preventive education, early intervention, and comprehensive dental care for underserved children and their families. The clinic serves Belton and greater Cas...</p>
+  <a href="./jobs/registered-dental-hygienist-cass-county-dental-clinic/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist bluestem dental overland park, ks">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-bluestem-dental/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">BlueStem Dental · Overland Park, KS</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">BlueStem Dental in Overland Park is seeking a passionate Registered Dental Hygienist for a full-time role caring for patients as part of a supportive team. The practice emphasizes a great work environment and patient-centered care.</p>
+  <a href="./jobs/dental-hygienist-bluestem-dental/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist (rdh) aspen dental independence, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-rdh-aspen-dental/" class="hover:text-accent">Dental Hygienist (RDH)</a></h3>
+  <p class="mt-1 text-ink/70">Aspen Dental · Independence, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Part-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">At Aspen Dental, dental hygienists are empowered clinicians and trusted oral health providers. You will be a valued clinical partner to the doctor, with the autonomy to assess oral health, recommend care based on clinical indicators, and ed...</p>
+  <a href="./jobs/dental-hygienist-rdh-aspen-dental/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist (part-time) dental depot lee&#x27;s summit, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-part-time-dental-depot/" class="hover:text-accent">Dental Hygienist (Part-Time)</a></h3>
+  <p class="mt-1 text-ink/70">Dental Depot · Lee&#x27;s Summit, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Part-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Provide preventive and periodontal dental hygiene care, assess oral health, obtain diagnostic radiographs, and educate patients. The role includes authorized adjunctive procedures such as fluoride, sealants, local anesthesia, and nitrous ox...</p>
+  <a href="./jobs/dental-hygienist-part-time-dental-depot/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist vibrant health kc kansas city, ks">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-vibrant-health-kc/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Vibrant Health KC · Kansas City, KS</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Under the direction of the Chief Medical Officer and Sponsoring Dentist, deliver the full range of hygiene services and hygiene education possible per the individual clinician&#x27;s scope of practice. Team-based health care delivery model servi...</p>
+  <a href="./jobs/dental-hygienist-vibrant-health-kc/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist dental depot independence, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-dental-depot/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Dental Depot · Independence, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Provide preventive and periodontal dental hygiene care, assess oral health, obtain diagnostic radiographs, and educate patients. The role includes authorized adjunctive procedures such as fluoride, sealants, local anesthesia, and nitrous ox...</p>
+  <a href="./jobs/dental-hygienist-dental-depot/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist new mark dental care kansas city, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-new-mark-dental-care/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">New Mark Dental Care · Kansas City, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time / Part-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Dental Hygienist at New Mark Dental Care, open to full-time and part-time schedules and accepting new graduates. As a clinical provider and patient advocate, you will receive the resources to provide exceptional care while expanding your cl...</p>
+  <a href="./jobs/dental-hygienist-new-mark-dental-care/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist hickman mills dental care kansas city, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-hickman-mills-dental-care/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Hickman Mills Dental Care · Kansas City, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">As a clinical provider and patient advocate, you will be given all the resources you need to provide exceptional care, while expanding your clinical skillset. Full-time role with a $7,500 sign-on bonus at Hickman Mills Dental Care.</p>
+  <a href="./jobs/dental-hygienist-hickman-mills-dental-care/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental assistant oak hills family dental kansas city, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-assistant-oak-hills-family-dental/" class="hover:text-accent">Dental Assistant</a></h3>
+  <p class="mt-1 text-ink/70">Oak Hills Family Dental · Kansas City, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Not specified</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Dental Assistant at Oak Hills Family Dental, open to new graduates with no experience required. Team members partner with providers on dental procedures, taking x-rays and other diagnostics and performing chairside assistance.</p>
+  <a href="./jobs/dental-assistant-oak-hills-family-dental/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist raintree family dental care lee&#x27;s summit, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-raintree-family-dental-care/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Raintree Family Dental Care · Lee&#x27;s Summit, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">As a clinical provider and patient advocate, you will be given all the resources you need to provide exceptional care, while expanding your clinical skillset. Full-time schedule (Monday, Tuesday, Thursday, Friday) at Raintree Family Dental ...</p>
+  <a href="./jobs/dental-hygienist-raintree-family-dental-care/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental hygienist dental care on north avenue belton, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-hygienist-dental-care-on-north-avenue/" class="hover:text-accent">Dental Hygienist</a></h3>
+  <p class="mt-1 text-ink/70">Dental Care on North Avenue · Belton, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">$10,000 sign-on bonus for a full-time Dental Hygienist at Dental Care on North Avenue in Belton, accepting new graduates. As a clinical provider and patient advocate, you will provide exceptional care with full clinical autonomy and hygiene...</p>
+  <a href="./jobs/dental-hygienist-dental-care-on-north-avenue/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="front office administrative assistant independence family dental care kansas city, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/front-office-administrative-assistant-independence-family-dental-care/" class="hover:text-accent">Front Office Administrative Assistant</a></h3>
+  <p class="mt-1 text-ink/70">Independence Family Dental Care · Kansas City, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Full-time</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Independence Family Dental Care is looking for a Business Assistant to join the front office team. Manage front office duties including answering phones, scheduling, insurance claims, and patient payments; full-time Monday-Friday, no weeken...</p>
+  <a href="./jobs/front-office-administrative-assistant-independence-family-dental-care/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+<article class="job-card rounded-xl border border-ink/10 bg-white p-6" data-search="dental office assistant dental care on cookingham kansas city, mo">
+  <h3 class="text-lg font-semibold"><a href="./jobs/dental-office-assistant-dental-care-on-cookingham/" class="hover:text-accent">Dental Office Assistant</a></h3>
+  <p class="mt-1 text-ink/70">Dental Care on Cookingham · Kansas City, MO</p>
+  <p class="mt-1 text-sm text-ink/50">Not specified</p>
+  <p class="mt-3 line-clamp-3 text-ink/70">Dental Care on Cookingham is looking for a Business Assistant to join the front office team, with dental insurance experience preferred. Manage office duties including greeting patients, answering phones, checking office mail, and communica...</p>
+  <a href="./jobs/dental-office-assistant-dental-care-on-cookingham/" class="mt-4 inline-block font-medium text-accent hover:underline">View job →</a>
+</article>
+  </div>
+  <p id="no-results" class="hidden py-8 text-center text-ink/60">No openings match that search. Try a different title, practice, or location.</p>
+</main>
+<script>
+const input = document.getElementById('search');
+const cards = Array.from(document.querySelectorAll('.job-card'));
+const count = document.getElementById('job-count');
+const none = document.getElementById('no-results');
+input.addEventListener('input', () => {
+  const q = input.value.trim().toLowerCase();
+  let visible = 0;
+  cards.forEach(c => {
+    const hit = !q || c.dataset.search.includes(q);
+    c.classList.toggle('hidden', !hit);
+    if (hit) visible++;
+  });
+  count.textContent = visible;
+  none.classList.toggle('hidden', visible > 0);
+});
+</script>
+<section id="job-alerts" class="border-t border-ink/10 bg-accent/5">
+  <div class="mx-auto max-w-5xl px-6 py-12">
+    <h2 class="text-xl font-bold">Get new dental jobs by email</h2>
+    <p class="mt-2 text-ink/70">One email when a new job is posted. No spam, unsubscribe anytime.</p>
+    <form class="mt-6 flex max-w-xl flex-col gap-3 sm:flex-row" action="https://docs.google.com/forms/d/e/1FAIpQLScLzELZXh7FQ5_NEULsbSxBYHbwe18PWBcXaNWjZqEisOLk5A/formResponse" method="POST" target="alerts-frame" onsubmit="document.getElementById('alerts-done').classList.remove('hidden');">
+      <input type="hidden" name="entry.1244225292" value="Dental jobs">
+      <label class="sr-only" for="alerts-name">Your name</label>
+      <input id="alerts-name" name="entry.414812592" type="text" required placeholder="Your name" class="flex-1 rounded-lg border border-ink/20 bg-white px-4 py-3">
+      <label class="sr-only" for="alerts-email">Email address</label>
+      <input id="alerts-email" name="entry.286598076" type="email" required placeholder="Email address" class="flex-1 rounded-lg border border-ink/20 bg-white px-4 py-3">
+      <button type="submit" class="rounded-lg bg-accent px-6 py-3 font-medium text-white transition hover:opacity-90">Sign up for alerts</button>
+    </form>
+    <p id="alerts-done" class="mt-3 hidden font-medium text-accent">Thanks — you're signed up. Watch your inbox for new openings.</p>
+    <iframe name="alerts-frame" class="hidden" title="alerts submission"></iframe>
+  </div>
+</section>
+<section id="how-it-earns" class="border-t border-ink/10">
+  <div class="mx-auto max-w-5xl px-6 py-12">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-ink/50">How this board earns</h2>
+    <div class="mt-6 grid gap-6 sm:grid-cols-3">
+      <div>
+        <h3 class="font-semibold">Standard posting — $99</h3>
+        <p class="mt-1 text-ink/70">Your opening listed for 30 days with full description and apply link.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Featured posting — $199</h3>
+        <p class="mt-1 text-ink/70">Pinned to the top of the board and highlighted for 30 days.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Top placement — $300/mo</h3>
+        <p class="mt-1 text-ink/70">Keep your opening pinned at the top of the board, month to month. Job-alert email placement available — ask for details.</p>
+      </div>
+    </div>
+    <p class="mt-6 text-sm text-ink/60">Job seekers browse and apply free. Employers pay only to post.</p>
+  </div>
+</section>
+<footer class="border-t border-ink/10">
+  <div class="mx-auto flex max-w-5xl flex-col gap-2 px-6 py-8 text-sm text-ink/60 sm:flex-row sm:items-center sm:justify-between">
+    <span>🦷 Dental Job Board — by C2R Marketing</span>
+    <span><a href="#job-alerts" class="hover:text-accent">Job alerts</a> · <a href="./post-a-job/" class="hover:text-accent">Post a job</a></span>
+  </div>
+</footer>
+</body>
+</html>
