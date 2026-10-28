@@ -1,0 +1,18 @@
+# Dental Job Board — llms.txt
+
+## About
+A job board for dental practices in the Kansas City metro. 20 real openings, each link-verified live at launch: mostly Registered Dental Hygienist roles, plus dental assistant and front-office roles. Every listing links to the employer's real application page.
+
+## Post a job
+- Standard listing, $99 for 30 days: https://buy.stripe.com/4gMfZi8Ng8VNgsSaiM0gw0y
+- Featured listing, $199 for 30 days: https://buy.stripe.com/00w8wQ4x05JB2C2ez20gw0z
+- Post a job: https://c2r-marketing.github.io/dental-jobs/post-a-job/
+- Listings go live after payment.
+
+## Job alerts
+Free email alerts for new dental jobs: https://c2r-marketing.github.io/dental-jobs/ (signup on every page).
+
+## Contact
+- Email: eli@c2rmarketing.com
+- Board: https://c2r-marketing.github.io/dental-jobs/
+- Run by C2R Marketing: https://c2rmarketing.com/
